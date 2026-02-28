@@ -1,0 +1,10 @@
+
+[project]
+name = "agent-games"
+version = "0.1.0"
+description = "Plugin-based turn-based game framework for AI agents"
+authors = [{name="AgentGames"}]
+dependencies = ["pydantic"]
+
+[project.scripts]
+agent-games = "agent_games.main:main"

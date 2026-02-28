@@ -1,0 +1,3 @@
+
+[storage]
+sessions_dir = "sessions"

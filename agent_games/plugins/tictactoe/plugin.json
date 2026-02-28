@@ -1,0 +1,11 @@
+{
+  "id": "tictactoe",
+  "version": "0.1",
+  "protocol": "1.x",
+  "supported_commands": [
+    "register",
+    "rules",
+    "status",
+    "move"
+  ]
+}
