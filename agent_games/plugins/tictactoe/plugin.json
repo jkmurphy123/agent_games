@@ -1,11 +1,12 @@
 {
   "id": "tictactoe",
   "version": "0.1",
-  "protocol": "1.x",
+  "protocol": "1.0",
   "supported_commands": [
     "register",
     "rules",
     "status",
+    "agent_view",
     "move"
   ]
 }

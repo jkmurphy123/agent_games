@@ -6,5 +6,8 @@ description = "Plugin-based turn-based game framework for AI agents"
 authors = [{name="AgentGames"}]
 dependencies = ["pydantic"]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [project.scripts]
 agent-games = "agent_games.main:main"
